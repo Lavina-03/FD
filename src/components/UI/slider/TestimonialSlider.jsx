@@ -21,50 +21,38 @@ const TestimonialSlider = () => {
     <Slider {...settings}>
       <div>
         <p className='review__text'>
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nesciunt
-          dignissimos iure perspiciatis atque voluptas? Modi quae corporis ad ea
-          corrupti itaque voluptatum, sapiente optio laudantium accusamus
-          molestiae, natus eum?"
+          "I had a special dietary request, and the food delivery website accommodated it without any issues. Fantastic service!" 
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava01} alt='avatar' className=' rounded' />
-          <h6>John Doe</h6>
+          <h6>Grateful customer</h6>
         </div>
       </div>
       <div>
         <p className='review__text'>
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-          exercitationem magni esse asperiores mollitia repellat similique
-          excepturi necessitatibus odit. Odit unde rerum distinctio voluptate
-          vero quo esse autem similique dolorem!"
+          "The tracking feature was a game-changer. I could see exactly when my food would arrive.!"
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava02} alt='avatar' className='rounded' />
-          <h6>Steven Crock</h6>
+          <h6>Impressed customer</h6>
         </div>
       </div>
       <div>
         <p className='review__text'>
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
-          laudantium, aliquam obcaecati pariatur quam odit aperiam quasi
-          explicabo at fugit, reiciendis, sunt atque mollitia nulla. Similique
-          consequuntur ipsum illum facilis?"
+        "I love how easy it is to order from this food delivery website. It saves me so much time!"
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava03} alt='avatar' className=' rounded' />
-          <h6>Missi Lou</h6>
+          <h6>Happy customer</h6>
         </div>
       </div>
       <div>
         <p className='review__text'>
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
-          veritatis molestias repudiandae deleniti doloribus porro deserunt
-          optio dolorem. Amet temporibus veniam omnis vel officiis mollitia,
-          tenetur laudantium animi eos suscipit?"
+         "The customer service was exceptional. They went above and beyond to ensure my order was perfect."
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava04} alt='avatar' className=' rounded' />
-          <h6>Karen Doe</h6>
+          <h6>Delighted customer</h6>
         </div>
       </div>
     </Slider>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Helmet from '../components/Helmet/Helmet.js';
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap';
-import heroImg from '../assets/images/hero.png';
+import heroImg from '../assets/images/hero2.png';
 import '../styles/hero-section.css';
 import { Link } from 'react-router-dom';
 import Category from '../components/UI/category/Category.jsx';
@@ -14,8 +14,8 @@ import foodCategoryImg01 from '../assets/images/hamburger.png';
 import foodCategoryImg02 from '../assets/images/pizza.png';
 import foodCategoryImg03 from '../assets/images/bread.png';
 import ProductCard from '../components/UI/product-card/ProductCard.jsx';
-import whyImg from '../assets/images/location.png';
-import networkImg from '../assets/images/network.png';
+import whyImg from '../assets/images/location1.png';
+import networkImg from '../assets/images/network1.png';
 import TestimonialSlider from '../components/UI/slider/TestimonialSlider.jsx';
 
 const featureData = [
@@ -76,17 +76,15 @@ const Home = () => {
             <Col lg='6' md='6'>
               <div className='hero__content'>
                 <h5 className='mb-3'>
-                  Fast and easy food delivery service to spoil the foodie within
-                  you
+                Indulge in a culinary adventure with our seamless food delivery service, bringing the finest flavors right to your doorstep
                 </h5>
                 <h1 className='mb-4 hero__title'>
-                  <span>HUNGRY?</span> just wait <br /> food at
-                  <span> your door!</span>
+                  <span>JUST</span> a general life  <br /> update : 
+                  <span> Hungry again!</span>
                 </h1>
 
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, minima.
+                As a food delivery website, our mission is to bring the world's flavors to your doorstep with just a few clicks.
                 </p>
 
                 <div className='hero__btns d-flex align-items-center gap-5 mt-4'>
@@ -130,18 +128,16 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg='12' className='text-center'>
-              <h5 className='feature__subtitle mb-4'>What we serve</h5>
-              <h2 className='feature__title'> Just sit back at home</h2>
+              
+              <h2 className='feature__title'> We deliver food with a side of laughter and a sprinkle of awesomeness</h2>
               <h2 className='feature__title'>
-                we will <span>take care</span>
+              Our food delivery website <span>has it all!</span>
               </h2>
               <p className='mb-1 mt-4 feature__text'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laborum, deserunt.
+              Whether it's a busy weeknight or a lazy weekend, our food delivery website ensures that you never have to compromise on quality or taste when it comes to your meals.
               </p>
               <p className='mb-1 mt-4 feature__text'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error,
-                ullam?
+              We strive to provide a seamless and convenient food delivery experience, ensuring that your orders are delivered promptly and with utmost care.
               </p>
             </Col>
 
@@ -230,13 +226,10 @@ const Home = () => {
             <Col lg='6' md='6'>
               <div className='why__foodie'>
                 <h2 className='foodie-title mb-4'>
-                  Why <span>Foodie?</span>
+                   <span>Epicure</span>
                 </h2>
                 <p className='foodie-desc'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                  laborum ratione maiores? Commodi quam nostrum recusandae! Quod
-                  ducimus non molestias, numquam labore quidem nam illum esse
-                  harum vitae laborum? Error!
+                Choose Foodie because we understand the desires of an epicure, offering a delectable selection of dishes that will tantalize your senses.
                 </p>
                 <ListGroup className='mt-4'>
                   <ListGroupItem className='border-0 ps-0'>
@@ -298,12 +291,11 @@ const Home = () => {
               <div className='testimonial'>
                 <h5 className='testimonial__subtitle mb-4'>Testimonial</h5>
                 <h2 className='testimonial__title mb-40'>
-                  What our <span>customers </span>are saying
+                The positive feedback from our  <span>customers </span>reflects their satisfaction with our reliable delivery, delicious food, and overall dining experience
                 </h2>
                 <p className='testimonial__desc'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolor accusantium magni omnis culpa cupiditate nesciunt amet,
-                  fugit nam doloremque rem.
+                The prices were reasonable, and the portion sizes were generous. Great value for money!" - Happy customer
+
                 </p>
                 <TestimonialSlider />
               </div>
